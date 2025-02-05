@@ -1,2 +1,4 @@
-import sectionWrapper from "./sectionWrapper";
-export { sectionWrapper };
+// import SectionWrapper from "./SectionWrapper";
+import SectionWrapper from "@/hoc/SectionWrapper";
+
+export { SectionWrapper };

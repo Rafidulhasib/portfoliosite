@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 // import emailjs from '@emailjs/browser'
 
-import { sectionWrapper } from "../hoc";
+// import { sectionWrapper } from "../hoc";
+import { SectionWrapper } from "@/hoc";
+
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 import { EarthCanvas } from "./canvas";
@@ -95,4 +97,4 @@ const Contact = () => {
   );
 };
 
-export default sectionWrapper(Contact, "contact");
+export default SectionWrapper(Contact, "contact");

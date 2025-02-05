@@ -4,7 +4,9 @@ import { Tilt } from "react-tilt";
 import { github } from "../assets";
 
 import { projects } from "../constants";
-import { sectionWrapper } from "../hoc";
+// import { sectionWrapper } from "../hoc";
+import { SectionWrapper } from "@/hoc";
+
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -87,4 +89,4 @@ const works = () => {
   );
 };
 
-export default sectionWrapper(works, "");
+export default SectionWrapper(works, "");

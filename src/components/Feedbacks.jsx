@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { testimonials } from "../constants";
-import { sectionWrapper } from "../hoc";
+// import { sectionWrapper } from "../hoc";
+import { SectionWrapper } from "@/hoc";
+
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -62,4 +64,4 @@ const Feedbacks = () => {
   );
 };
 
-export default sectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, "");
